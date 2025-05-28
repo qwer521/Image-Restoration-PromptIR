@@ -49,12 +49,12 @@ python img2npz.py --folder_path
 ---
 ## Results
 Experimental Results 
-| Loss configuration | PSNR (dB) | 
+| Loss configuration | PSNR public/private | 
 | --- | --- | 
-| **L₁ only** | 28.40 | 
-| **MS-SSIM only** | 30.85 | 
-| **L₁ + MS-SSIM** | 31.03 | 
-| **L₁ + MS-SSIM + grad + charb** | **31.35** |
+| L₁ only | 28.40 / 27.66 | 
+| MS-SSIM only | 30.85 / 30.22 | 
+| L₁ + MS-SSIM | 31.03 / 30.31 | 
+| **L₁ + MS-SSIM + grad + charb** | **31.04 / 30.53** |
 
 ---
 ## Performance Snapshot  
