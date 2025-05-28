@@ -31,6 +31,15 @@ The training data should be placed in ``` data/Train/{task_name}``` directory
 
 The testing data should be placed in the ```data/test/degraded```
 
+And put image position mapping at ```datadir/{task_name}``` 
+```
+└───datadir
+    ├───rainy
+    │   └───rainTrain.txt	(rainy/rain-*.png ...)
+    └───snowy
+        └───snowTrain.txt	(snowy/snow-*.png ...)
+```
+
 ---
 ## How to Run  
 
